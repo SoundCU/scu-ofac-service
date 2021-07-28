@@ -7,7 +7,7 @@ A new and improved OFAC search running as Spring service.
 
  * all lists are pulled from a [single source](http://api.trade.gov/static/consolidated_screening_list/consolidated.json) maintained and published by the [Federal Trade Administration](https://www.trade.gov/)
 
- * The source data is checked for updates and reloaded hourly
+ * The source data is checked for updates hourly and reloaded if newer data is available.
 
 ### Show Me What You Got!
 
